@@ -6,7 +6,7 @@ var movieSchema = new mongoose.Schema(
 
                                         studio : {type : String, required:'Studio cannot be blank'},
 
-                                        year : {type : Integer, required:'Year cannot be blank'}
+                                        year : {type : Number, required:'Year cannot be blank'}
                                       }
                                     );
 //make schema public

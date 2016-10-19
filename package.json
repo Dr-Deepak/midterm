@@ -11,20 +11,8 @@
     "debug": "~2.2.0",
     "ejs": "~2.4.1",
     "express": "~4.13.4",
-    "mongoose": "^4.6.4",
+    "mongoose": "^4.6.2",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0"
-  },
-  "description": "midterm exam",
-  "main": "app.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Dr-Deepak/midterm.git"
-  },
-  "author": "Deepak Sharma",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Dr-Deepak/midterm/issues"
-  },
-  "homepage": "https://github.com/Dr-Deepak/midterm#readme"
+  }
 }

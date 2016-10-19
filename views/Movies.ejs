@@ -1,0 +1,18 @@
+<%-include partials/header.ejs %>
+<h1><%= title%></h1>
+    <table class="table table-stiped">
+    <tr>
+        <th>Title</th>
+        <th>Studio</th>
+        <th>Year</th>
+
+    </tr>
+    <% for (var i = 0;i<movies.length;i++) {%>
+      <tr>
+          <td><%= movies[i].title %></td>
+          <td><%= movies[i].studio %></td>
+          <td><%= movies[i].year%></td>
+      </tr>
+      <%}%>
+    </table>
+<%-include partials/footer.ejs %>
